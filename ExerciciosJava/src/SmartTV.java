@@ -5,8 +5,16 @@ public class SmartTV{
     
     public void aumentarVolume(){
         volume++;
-        System.out.println("O volume atual é "+ volume);
-        
+        System.out.println("O volume atual é "+ volume);       
     }
+
+    public void diminuirVolume(){
+        volume--;
+        System.out.println("Volume atual é "+volume);
+    }
+
+    public void mudarCanal(){
+        canal++;
+    } 
 }
 
