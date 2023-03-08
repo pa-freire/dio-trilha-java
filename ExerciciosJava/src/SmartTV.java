@@ -13,8 +13,16 @@ public class SmartTV{
         System.out.println("Volume atual é "+volume);
     }
 
-    public void mudarCanal(){
+    public void subirCanal(){
         canal++;
     } 
+
+    public void descerCanal(){
+        canal--;
+    } 
+
+    public void mudarCanal(int novoCanal){
+        canal=novoCanal;
+    }
 }
 
