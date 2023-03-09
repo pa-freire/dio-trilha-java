@@ -1,11 +1,9 @@
 import java.util.Scanner;
 
 public class Exe1nomeIdade {
-    /**
-     * 
-     */
+
     public static void main(String[] args) throws Exception {
-        Scanner scan = new Scanner(System.in); {
+        Scanner scan = new Scanner(System.in); 
         
             String nome;
             int idade;
@@ -18,7 +16,9 @@ public class Exe1nomeIdade {
                 System.out.println("Idade ");
                 idade = scan.nextInt();
                 }
-        }
-        System.out.println("Continua aqui....");
+
+                System.out.println("Continua aqui....");
+            }
+        
     }
-}
+
